@@ -1,0 +1,10 @@
+.DS_Store
+.bundle
+.irb.history
+.rvmrc
+.sass-cache
+db/*.sqlite3
+log/*.log
+tmp/**/*
+public/plugin_assets
+*~

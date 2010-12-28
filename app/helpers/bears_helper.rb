@@ -1,0 +1,2 @@
+module BearsHelper
+end

@@ -1,0 +1,10 @@
+There are three controllers: Lions, Tigers, Bears each with just an index and show action.
+Each one is running the same functional tests.
+
+BearsController is using "normal" actions defined in the controller
+LionsController is using CanCan's load_and_authorize_resource
+TigersController is using CanCan's load_and_authorize_resource on top of InheritedResources
+
+  bundle install
+  rake db:migrate
+  rake
