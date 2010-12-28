@@ -5,6 +5,9 @@ BearsController is using "normal" actions defined in the controller
 LionsController is using CanCan's load_and_authorize_resource
 TigersController is using CanCan's load_and_authorize_resource on top of InheritedResources
 
+Note that if you comment out "load_and_authorize_resource" in TigersController, the tests pass.
+
+
   bundle install
   rake db:migrate
   rake
